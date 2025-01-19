@@ -1,0 +1,38 @@
+.profile-card {
+    border: 1px solid #38cba4;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    width: 250px;
+    margin: 16px;
+    background-color: #f1e83e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    background-color: #c5d7e4;
+  }
+  
+  .profile-name {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  .profile-occupation, .profile-hobby {
+    margin: 4px 0;
+    font-size: 1em;
+    color: #555;
+  }

@@ -1,0 +1,13 @@
+.homework02 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  background-color: #a4e96c;
+  }
+
+  @media (max-width: 768px) {
+    .homework02 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
