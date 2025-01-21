@@ -6,12 +6,13 @@ const Homework03 = () => {
   return (
     <div className="homework03-container">
       <Input
+        id="username-input"
         name="username"
         type="text"
         placeholder="Enter your username"
         label="Username"
       />
-      <Button name="Submit" type="submit" />
+      <Button name="Submit" />
     </div>
   );
 };
