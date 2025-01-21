@@ -1,5 +1,17 @@
 .app {
   display: flex;
-  flex-direction: column;
-  flex-direction: 1;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f7d6d6; 
+  width: 590px;
+  height: 298px; 
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+

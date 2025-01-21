@@ -1,6 +1,7 @@
 import "./App.css";
-import Homework02Teacher from "./homeworks/Homework02Teacher/Homework02Teacher";
-//импорт по умолчанию (название компонента можно заменить на любое другое)
+import Homework03 from "./homeworks/Homework03/Homework03";
+// import Homework02Teacher from "./homeworks/Homework02Teacher/Homework02Teacher";
+// импорт по умолчанию (название компонента можно заменить на любое другое)
 // import MyButton from "./components/Button/Button";
 // import Button from "./components/Button/Button";
 
@@ -22,7 +23,9 @@ function App() {
       {/* <Homework02/> */}
       {/* ---Topic: Props */}
       {/*<Lesson03 />*/}
-      <Homework02Teacher/>
+      {/*<Homework02Teacher/>*/}
+      {/* Компонент Homework03 отображается по центру */}
+      <Homework03 />
     </div>
   );
 }
