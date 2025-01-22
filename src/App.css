@@ -1,17 +1,21 @@
 .app {
   display: flex;
-  font-family: Arial, sans-serif;
+  flex-direction: column;
+  flex: 1;
+}
+   /*font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f7d6d6; 
-  width: 590px;
-  height: 298px; 
   justify-content: center;
-  align-items: center;
-  margin: auto;
+  width: 590px;
+  height: 298px;
   position: absolute;
+  align-items: center;
+  background-color: #f7d6d6; 
+  margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-}
+}*/
+ 
 
