@@ -1,0 +1,22 @@
+.homework05 {
+    padding: 16px;
+    background-color: #e4e786;
+    border: 1px solid #da8080;
+    border-radius: 8px;
+    margin: 16px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homework05 h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 16px;
+  }
+  
+  .productsList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
