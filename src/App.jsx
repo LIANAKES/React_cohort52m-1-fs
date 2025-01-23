@@ -8,12 +8,13 @@ import "./App.css";
 //lessons
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
 // import Lesson03 from "./lessons/Lesson_03/Lesson03";
- import Lesson04 from "./lessons/Lesson_04/Lesson04";
+// import Lesson04 from "./lessons/Lesson_04/Lesson04";
 
 //homeworks
 // import Homework02 from "./homeworks/Homework02/Homework02";
 // import Homework02Teacher from "./homeworks/Homework02Teacher/Homework02Teacher";
 // import Homework03 from "./homeworks/Homework03/Homework03";
+import Homework04 from "./homeworks/Homework04/Homework04";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/*<Lesson03 />*/}
       {/*<Homework02Teacher/>*/}
      {/* ---Topic: functions, hook(useState) */}
-      <Lesson04 />
+      {/*<Lesson04 />*/}
+      <Homework04 />
     </div>
   );
 }
