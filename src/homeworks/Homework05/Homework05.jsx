@@ -7,17 +7,18 @@ function Homework05() {
       { id: 2, name: 'Banana', price: 1.0 },
       { id: 3, name: 'Orange', price: 2.0 },
     ];
-  
+    
+  const productElements = products.map(product => (
+    <Product key={product.id} name={product.name} price={product.price} />
+  ));
+    
     return (
-      <div className="homework05">
-        <h2>Products</h2>
-        <div className="productsList">
-          {products.map(product => (
-            <Product key={product.id} name={product.name} price={product.price} />
-          ))}
-        </div>
+    <div className="homework05">
+      <h2>Products</h2>
+      <div className="productsList">
+        {productElements}
       </div>
-    );
-  }
-  
+    </div>
+  );
+}
   export default Homework05;
